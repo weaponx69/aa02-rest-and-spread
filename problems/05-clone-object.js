@@ -7,16 +7,18 @@ Hint: As a side effect, you will end up creating a `green` variable with value
 "hexagon".
 */
 
-const obj = {
+const obj = 
+{
   red: "circle",
   blue: "square",
   green: "hexagon"
 }
 
-// Your code here 
+// Your code here
 
-// console.log(objClone);  // { red: "circle", blue: "square", yellow: "pentagon" }
-// console.log(green);     // hexagon
+
+console.log(objClone);  // { red: "circle", blue: "square", yellow: "pentagon" }
+console.log(green);     // hexagon
 
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
