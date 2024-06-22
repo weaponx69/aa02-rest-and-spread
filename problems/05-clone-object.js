@@ -19,7 +19,7 @@ const obj =
 
 console.log(objClone);  // { red: "circle", blue: "square", yellow: "pentagon" }
 console.log(green);     // hexagon
-
+const { green, ...objClone } = { ...obj, yellow: "pentagon" };
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 
