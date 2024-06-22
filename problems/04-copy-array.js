@@ -12,9 +12,11 @@ const obj = {
 }
 
 // Your code here
-let arrRest = [firstElem, ...restOfArray] = arr;  // I guess this is destructuring?
+let [firstElem, ...restOfArray] = arr;  // I guess this is destructuring?
+let arrRest = [firstElem, ...restOfArray];
 let arrSpread = [...arr];
-let objRest = {firstObj, ...restofObject} = obj;
+let {red, ...restofObject} = obj;
+let objRest = {red, ...restofObject};
 let objSpread = {...obj};
 
 console.log(arrRest);   // [1, "two", "3"]
