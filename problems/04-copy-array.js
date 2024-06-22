@@ -11,13 +11,18 @@ const obj = {
   green: "hexagon"
 }
 
-// Your code here 
+// Your code here
+let [first, ...restOfArray] = [1, "two", "3"];  // I guess this is destructuring?
+let arrRest = [first, ...restOfArray]; // rest as in the rest of it...lol
+let arrSpread = [...arr];
+let objRest = {red:"circle", ...rest};
+let objSpread = {...obj};
 
-// console.log(arrRest);   // [1, "two", "3"]
-// console.log(arrSpread); // [1, "two", "3"]
+console.log(arrRest);   // [1, "two", "3"]
+console.log(arrSpread); // [1, "two", "3"]
 
-// console.log(objRest);   // { red: "circle", blue: "square", green: "hexagon" }
-// console.log(objSpread); // { red: "circle", blue: "square", green: "hexagon" }
+console.log(objRest);   // { red: "circle", blue: "square", green: "hexagon" }
+console.log(objSpread); // { red: "circle", blue: "square", green: "hexagon" }
 
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
